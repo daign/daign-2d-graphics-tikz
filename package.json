@@ -43,8 +43,8 @@
   },
   "dependencies": {
     "@daign/2d-pipeline": "^1.0.4",
-    "@daign/2d-graphics": "^1.0.5",
-    "@daign/math": "^1.0.12",
+    "@daign/2d-graphics": "^1.0.6",
+    "@daign/math": "^1.0.13",
     "@daign/style-sheets": "^1.0.2"
   },
   "nyc": {
