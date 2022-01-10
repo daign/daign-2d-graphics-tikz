@@ -1,6 +1,6 @@
 {
   "name": "@daign/2d-graphics-tikz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TikZ renderer for the daign-2d-graphics library.",
   "keywords": [
     "graphics",
@@ -43,8 +43,8 @@
   },
   "dependencies": {
     "@daign/2d-pipeline": "^1.0.4",
-    "@daign/2d-graphics": "^1.0.6",
-    "@daign/math": "^1.0.13",
+    "@daign/2d-graphics": "^1.0.8",
+    "@daign/math": "^1.0.14",
     "@daign/style-sheets": "^1.0.2"
   },
   "nyc": {
