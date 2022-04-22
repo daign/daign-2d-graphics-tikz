@@ -3,8 +3,8 @@ import { GraphicStyle } from '@daign/2d-graphics';
 
 import { TikzRenderer } from './tikzRenderer';
 
-import { groupModule, lineModule, polylineModule, textModule, twoPointCircleModule,
-  twoPointRectangleModule, viewModule } from './renderModules';
+import { groupModule, lineModule, polylineModule, scalableTextModule, textModule,
+  twoPointCircleModule, twoPointRectangleModule, viewModule } from './renderModules';
 
 export class TikzRendererFactory {
 
@@ -20,6 +20,7 @@ export class TikzRendererFactory {
     renderer.addRenderModule( polylineModule );
     renderer.addRenderModule( twoPointCircleModule );
     renderer.addRenderModule( textModule );
+    renderer.addRenderModule( scalableTextModule );
     renderer.addRenderModule( groupModule );
     renderer.addRenderModule( viewModule );
 
