@@ -1,8 +1,10 @@
 # daign-2d-graphics-tikz
 
-[![NPM package][npm]][npm-url]
+[![CI][ci-icon]][ci-url]
+[![Coverage][coveralls-icon]][coveralls-url]
+[![NPM package][npm-icon]][npm-url]
 
-A TikZ renderer for the [daign-2d-graphics][library-url] library
+#### A TikZ renderer for the [daign-2d-graphics][library-url] library.
 
 ## Installation
 
@@ -12,18 +14,24 @@ npm install @daign/2d-graphics-tikz --save
 
 ## Scripts
 
-#### Build
+```bash
+# Build
+npm run build
 
-    npm run build
+# Run lint analysis
+npm run lint
 
-#### Run lint analysis
+# Run unit tests with code coverage
+npm run test
 
-    npm run lint
+# Get a full lcov report
+npm run coverage
+```
 
-#### Run unit tests with code coverage
-
-    npm run test
-
-[npm]: https://img.shields.io/npm/v/@daign/2d-graphics-tikz.svg
+[ci-icon]: https://github.com/daign/daign-2d-graphics-tikz/workflows/CI/badge.svg
+[ci-url]: https://github.com/daign/daign-2d-graphics-tikz/actions
+[coveralls-icon]: https://coveralls.io/repos/github/daign/daign-2d-graphics-tikz/badge.svg?branch=main
+[coveralls-url]: https://coveralls.io/github/daign/daign-2d-graphics-tikz?branch=main
+[npm-icon]: https://img.shields.io/npm/v/@daign/2d-graphics-tikz.svg
 [npm-url]: https://www.npmjs.com/package/@daign/2d-graphics-tikz
 [library-url]: https://github.com/daign/daign-2d-graphics
