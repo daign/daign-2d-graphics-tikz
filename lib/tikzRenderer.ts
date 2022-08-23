@@ -123,9 +123,11 @@ export class TikzRenderer {
       return true;
     }
 
+    // TODO: the following code returned wrong matches in some environments.
     /* Instanceof is not working for classes inherited from a base class that originates from its
      * own instance of an imported library. Therefore we do a recursive check against the prototype
      * chain of the node. */
+    /*
     const recursiveCheck = ( classType: any ): boolean => {
       if ( classType.constructor.name === moduleType.name ) {
         return true;
@@ -140,5 +142,8 @@ export class TikzRenderer {
     };
 
     return recursiveCheck( graphicNode );
+    */
+
+    return false;
   }
 }

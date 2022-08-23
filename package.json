@@ -1,6 +1,6 @@
 {
   "name": "@daign/2d-graphics-tikz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TikZ renderer for the daign-2d-graphics library.",
   "keywords": [
     "graphics",
